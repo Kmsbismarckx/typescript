@@ -19,7 +19,7 @@ function wrongFindFirstOneCharacterString(
 
 // Обновление не компонуемой системы
 
-function findFirstNegativeNumber(numbers: number[]): number | undefined {
+function findFirstNegativeNumber(numbers: number[]): number | undefined
   for (let i of numbers) {
     if (i < 0) {
       return i;
